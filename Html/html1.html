@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="h">我是h1</h1>
+    <h2>我是h2</h2>
+    <h3>我是h3</h3>
+    <h4>我是h4</h4>
+    <h5>我是h5</h5>
+    <h6>我是h6</h6>
+
+    <p> 我是p</p>
+    <p> 我是p</p>
+
+    <span> 我是span</span>
+
+
+    <br>
+
+    <!-- <hr> -->
+
+    <img src="https://img95.699pic.com/photo/50136/1351.jpg_wh300.jpg" alt="">
+
+    <!-- 新页面 -->
+    <a href="https://www.baidu.com" target="_blank">百度</a>
+    <!-- 本页面加载新页面 -->
+    <a href="https://www.baidu.com" target="_self">百度</a>
+
+    <!-- 页面内的锚点 -->
+    <!-- 1. 设置 id
+    2. 设置 a 标签锚点 -->
+    <a href="#h">h1</a>
+
+    <a href="mailto:laoyouhub@gmail.com">发邮件给我</a>
+
+    <!-- 为什么某些网站不支持 iframe 他们是什么原理（多返回了什么设置） -->
+    <iframe src="http://www.taobao.com" width="880" height="608" frameborder="1"></iframe>
+    <iframe src="http://www.mi.com" width="800" height="600" frameborder="1"></iframe>
+    <iframe src="http://iww.baidu.com" width="800" height="680" frameborder="1"></iframe>
+    <iframe src="http://www.jd.com" width="800" height="600" frameborder="1"></iframe>
+
+
+    <!-- 全局属性 -->
+    <!-- id
+        class
+        style
+        title -->
+
+    <h1 class="title">我是标题</h1>
+
+    <script>
+        var titleEl = document.querySelector('.title');
+        alert(titleEl);
+    </script>
+    
+</body>
+
+</html>
